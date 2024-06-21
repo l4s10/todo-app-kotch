@@ -1,0 +1,46 @@
+# Node modules
+/todo-front/node_modules
+
+# Laravel vendor folder
+/lista-de-tareas/vendor
+
+# Environment variables
+/todo-front/.env
+/lista-de-tareas/.env
+
+# Build outputs
+/lista-de-tareas/build
+/lista-de-tareas/dist
+
+# Backend specific ignores
+/lista-de-tareas/.phpunit.cache
+/lista-de-tareas/.phpactor.json
+/lista-de-tareas/.phpunit.result.cache
+/lista-de-tareas/Homestead.json
+/lista-de-tareas/Homestead.yaml
+/lista-de-tareas/auth.json
+/lista-de-tareas/npm-debug.log
+/lista-de-tareas/yarn-error.log
+/lista-de-tareas/.fleet
+/lista-de-tareas/.idea
+/lista-de-tareas/.vscode
+
+# Frontend specific ignores
+/todo-front/.pnp
+/todo-front/.pnp.js
+/todo-front/coverage
+/todo-front/.DS_Store
+/todo-front/.env.local
+/todo-front/.env.development.local
+/todo-front/.env.test.local
+/todo-front/.env.production.local
+/todo-front/npm-debug.log*
+/todo-front/yarn-debug.log*
+/todo-front/yarn-error.log*
+
+# Other common ignores
+.DS_Store
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
